@@ -348,6 +348,7 @@ export default {
           "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
+          { value: "https://conv.20231010.xyz" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -1311,4 +1312,5 @@ export default {
   }
 };
 </script>
+
 
