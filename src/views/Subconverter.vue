@@ -332,6 +332,7 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
+          "conv.20231010.xyz": "https://conv.20231010.xyz/short",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
@@ -789,7 +790,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://conv.20231010.xyz" : this.getUrlParam(),
-        shortType: "https://v1.mk/short",
+        shortType: "https://conv.20231010.xyz/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -1312,6 +1313,7 @@ export default {
   }
 };
 </script>
+
 
 
 
